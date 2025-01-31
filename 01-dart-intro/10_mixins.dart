@@ -4,15 +4,15 @@ abstract class Pez extends Animal{}
 abstract class Mamifero extends Animal {}
 
 mixin class Volador {
-  void volar() => print ('estoy volanding');
+  void volar() => print ('estoy volando');
 }
 
 mixin class Caminante {
-  void caminar() => print ('estoy caminanding');
+  void caminar() => print ('estoy caminando');
 }
 
 mixin class Nadador {
-  void nadar() => print ('estoy nadanding');
+  void nadar() => print ('estoy nadando');
 }
 
 class Delfin extends Mamifero with Nadador {}
